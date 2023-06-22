@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <p><b>Sample of Driving School Registration Form<br><br>
+    Name</b></p>
+    <form action="sam.php">
+
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+
+        <p><b>Address</b></p>
+        <input type="text" placeholder="Street Name">
+        <select name="city">
+            <option name="Kathmandu">Kathmandu</option>
+            <option name="Pokhara">Pokhara</option>
+            <option name="Nepalgunj">Nepalgunj</option>
+            <option name="Butwal">Butwal</option>
+        </select>
+
+        <p><b>Date of Birth</b></p>
+        <input type="date" value="date" name="dAte">
+
+        <p><b>Choose your Grade</b></p>
+        <input type="radio" value="class 11" name="class"> Class 11
+        <input type="radio" value="class 12" name="class"> Class 12
+
+        <p><b>Choose Subjects</b></p>
+        <input type="checkbox" value="maths" name="subject"> Maths<br><br>
+        <input type="checkbox" value="social" name="subject"> Social<br><br>
+        <input type="checkbox" value="arts" name="subject"> Arts<br><br>
+
+        <p><b>FeedBack</b></p>
+        <textarea name="feedback" placeholder="any feedback"></textarea>
+        <br><br>
+        <input type="submit" placeholder="submit">
+
+    </form>
+</body>
+</html>
